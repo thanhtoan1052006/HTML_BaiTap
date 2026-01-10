@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Thẻ tiêu đề từ 1 đến 6 -->
+    <h1>Đây là tiêu đề chính</h1>
+    <h2>Đầy là tieu de phu hai</h2>
+    <h3>Đây là tiêu đề phụ thứ ba</h3>
+    <h4>Đây là tiêu đề phụ thứ tư</h4>
+    <h5>Đây là tiêu đề phụ thứ năm</h5>
+    <h6>Đây là tiêu đề phụ thứ sáu</h6>
+    <!-- Thẻ đoạn văn -->
+
+    <p>
+      <u><b>xin chào mn</b></u> <b>tyno sóc lọ</b> , phú thọ, trọ bình dương,
+      <i>không có ng thường</i>
+    </p>
+    <!-- Thẻ tạo link liên kết -->
+
+    <a
+      href="https://www.facebook.com/tranthanhtoann/"
+      title="https://www.facebook.com/tranthanhtoann/"
+      target="_blank"
+      rel="noreferrer noopener"
+      >Link fb của Trần Thanh Toàn</a
+    >
+
+    <!-- Thẻ tạo link tải xuống -->
+
+    <a href="./images.jpg" download="toibingu.jpg">TẢI XUỐNG</a>
+
+    <!-- Thẻ tạo hình ảnh -->
+    <!-- Để giúp trang web tải hình ảnh nhanh hơn ta phải cần đổi định dạng jpeg, png, jpg... sang webp -->
+    <!-- Đây là link đổi định dạng -->
+    <!-- https://cloudinary.com/tools/image-to-webp -->
+    <!-- Khi tải xong nhớ đổi cái src thành .webp -->
+    <img
+      src="./images/images.jpg"
+      alt="Không thể load ảnh"
+      height="300px"
+      width="300px"
+    />
+
+    <!-- Thẻ video dành cho web không chuyên nghiệp -->
+    <video
+      src="./videos/videotesthtml.mp4"
+      type="video/mp4"
+      autoplay
+      loop
+      controls
+      height="300px"
+    ></video>
+
+    <!-- Thẻ video dành cho web chuyên nghiệp -->
+    <video poster="images/images.jpg" controls height="200px">
+      <source src="./videos/videotesthtml.mp4" type="video/mp4" />
+      <source src="./videos/videotesthtml.webm" type="video/webm" />
+    </video>
+
+    <!-- Thẻ audio -->
+    <!-- Có thể lên các trang web để đổi định dạng sang .ogg hoắc các định dạng tốt hơn -->
+    <audio controls>
+      <source src="./audios/audiotesthtml.mp3" type="audio/mpeg" />
+      <source src="./audios/audiotesthtml.ogg" type="audio/ogg" />
+    </audio>
+  </body>
+</html>
